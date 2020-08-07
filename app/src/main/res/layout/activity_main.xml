@@ -6,16 +6,13 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="107dp"
-         />
-
-    <Button
-        android:id="@+id/button"
+    <EditText
+        android:id="@+id/editTextTextPersonName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/button_1" />
+        android:ems="10"
+        android:text="@string/text"
+        android:autofillHints=""
+        android:inputType="text"
+        tools:ignore="LabelFor" />
 </LinearLayout>
