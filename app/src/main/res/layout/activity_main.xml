@@ -15,4 +15,12 @@
         android:autofillHints=""
         android:inputType="text"
         tools:ignore="LabelFor" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="275dp"
+        android:padding="0dp"
+        tools:srcCompat="@drawable/PS4"
+        android:contentDescription="@string/app_name" />
 </LinearLayout>
