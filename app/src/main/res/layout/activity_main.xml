@@ -80,6 +80,7 @@
             android:layout_width="216dp"
             android:layout_height="wrap_content"
             android:layout_weight=""
+            android:textAlignment="center"
             android:text="@string/price" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
